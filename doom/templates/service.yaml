@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "doom.fullname" . }}
+  labels:
+    {{- include "doom.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: vnc
+      protocol: TCP
+      name: vnc
+  selector:
+    {{- include "doom.selectorLabels" . | nindent 4 }}
