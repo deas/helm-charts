@@ -1,0 +1,7 @@
+*~
+/target
+/checkouts
+/.idea
+.hgignore
+.hg/
+.vscode/
