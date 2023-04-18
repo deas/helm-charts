@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  doom:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-18T08:36:56.029875217Z"
+    description: A Helm chart for Doom
+    digest: f12f45af2e79c7e0eff1d8fe4bdb70afc7b8d720d188dbb7b87dbfee7458ad02
+    name: doom
+    type: application
+    urls:
+    - https://github.com/deas/helm-charts/releases/download/doom-0.1.0/doom-0.1.0.tgz
+    version: 0.1.0
+  neo4j:
+  - apiVersion: v1
+    appVersion: 3.4.5
+    created: "2023-04-18T08:36:56.272712489Z"
+    description: Neo4j is the world's leading graph database
+    digest: f9b980dfbf0a2f4d93ec865e0dd8ae64645b39e6a6e98cebd7a6dfb2b2c03ca5
+    home: https://www.neo4j.com
+    icon: http://info.neo4j.com/rs/773-GON-065/images/neo4j_logo.png
+    maintainers:
+    - email: a.steffan@contentreich.de
+      name: deas
+    name: neo4j
+    sources:
+    - https://github.com/neo4j/neo4j
+    - https://github.com/neo4j/docker-neo4j
+    urls:
+    - https://github.com/deas/helm-charts/releases/download/neo4j-0.0.1/neo4j-0.0.1.tgz
+    version: 0.0.1
+generated: "2023-04-18T08:36:56.272717989Z"
