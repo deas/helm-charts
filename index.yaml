@@ -3,6 +3,16 @@ entries:
   doom:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-04-19T13:24:10.884522756Z"
+    description: A Helm chart for Doom
+    digest: 6d772793b753fcf80ec719a43e980c8af1cc9ff32f7ac31ebcf12c8098876cf3
+    name: doom
+    type: application
+    urls:
+    - https://github.com/deas/helm-charts/releases/download/doom-0.1.2/doom-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-04-19T13:18:27.60110743Z"
     description: A Helm chart for Doom
     digest: 01dd10ca17bf8cb938c6f1f16b391105e7de3ddc813690ba23f7028182b7e51d
@@ -39,4 +49,4 @@ entries:
     urls:
     - https://github.com/deas/helm-charts/releases/download/neo4j-0.0.1/neo4j-0.0.1.tgz
     version: 0.0.1
-generated: "2023-04-19T13:18:27.60111613Z"
+generated: "2023-04-19T13:24:10.884539456Z"
